@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--added a form to type in the event information and also a submit button-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/nameOfEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-5dp"
+        android:text="Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+   <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/locationNameText"
+    android:hint="Enter Name Of Event"
+    android:layout_marginTop="50dp"
+    android:textSize="20dp">
+
+</EditText>
+
+    <TextView
+        android:id="@+id/typeOfEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:text="Type"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/locationTypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:hint="Enter Type Of Event" />
+
+    <TextView
+        android:id="@+id/descriptionOfEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:text="Description"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/locationDescriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:hint="Enter Description Of event" />
+
+    <TextView
+        android:id="@+id/DressCodeOfEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="267dp"
+        android:text="DressCode"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/locationDressCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="198dp"
+        android:hint="Enter Dress Code Of Event" />
+
+    <TextView
+        android:id="@+id/TimeOfEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:text="Time"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/locationTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="112dp"
+        android:hint="Enter Time For Event"
+        android:padding="5dp"
+        android:textAlignment="textEnd" />
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="46dp"
+        android:background="@color/colorPerfect"
+        android:backgroundTintMode="src_atop"
+        android:text="Submit"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:typeface="serif" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.moringaschool.outingapi2.SearchActivity">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi"
+        android:id="@+id/phoneTextView"
+        android:drawableLeft="@drawable/ic_search_white_24dp"
+        android:drawablePadding="4dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|left"/>-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/club1" />
+
+    <!--<Button
+        android:id="@+id/SubmitSearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditSearchText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginBottom="642dp"
+        android:layout_toRightOf="@id/EditSearchText"
+        android:background="@color/colorPerfect"
+       />-->
+
+    <EditText
+        android:id="@+id/EditSearchText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="250sp"
+        android:background="@color/colorPerfect"
+        android:ems="10"
+        android:hint="Search Event"
+        android:textColorHint="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/SubmitSearchButton"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="268dp"
+        android:background="@color/colorPerfect"
+        android:backgroundTintMode="src_atop"
+        android:drawableLeft="@drawable/ic_search_white_24dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:typeface="serif" />
+</RelativeLayout>

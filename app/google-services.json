@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "927374424878",
+    "firebase_url": "https://outing2.firebaseio.com",
+    "project_id": "outing2",
+    "storage_bucket": "outing2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927374424878:android:e84434c5b7022d360018bf",
+        "android_client_info": {
+          "package_name": "com.moringaschool.outingapi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927374424878-vnq1uv3pded8d0lsvtf5q7bffhq2h34g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringaschool.outingapi2",
+            "certificate_hash": "79e404a732a31524281a75f25c0fe3ae0383a880"
+          }
+        },
+        {
+          "client_id": "927374424878-4mecm4insebs9mcub8ha7kgqf9e2p0e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO-kl1eVXlTNrnrtal-1cNZ0EwQEGq-X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927374424878-4mecm4insebs9mcub8ha7kgqf9e2p0e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
