@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.moringaschool.outingapi2">
-
+<!--Added config change property in saved activity to notify us when there is a change in portrait or landscape mode-->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -34,7 +34,8 @@
         <activity android:name=".SavedActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.moringaschool.outingapi2.SavedActivity" />
+                android:value="com.moringaschool.outingapi2.SavedActivity"
+                android:configChanges="orientation"/>
         </activity>
         <activity android:name=".SearchActivity">
             <meta-data
