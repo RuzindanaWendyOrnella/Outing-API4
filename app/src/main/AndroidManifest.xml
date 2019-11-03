@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".CreateNewAccount" />
+        <activity android:name=".CreateNewAccount">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moringaschool.outingapi2.CreateNewAccount"
+                android:configChanges="orientation"/></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
