@@ -2,6 +2,7 @@
 <!--added a form to type in the event information and also a submit button-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/nameOfEvent"
         android:layout_width="match_parent"
@@ -64,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="267dp"
+        android:layout_marginTop="284dp"
         android:text="DressCode"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
@@ -75,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="198dp"
+        android:layout_marginBottom="135dp"
         android:hint="Enter Dress Code Of Event" />
 
     <TextView
@@ -83,20 +84,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="364dp"
         android:text="Time"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp"
         android:textStyle="bold" />
+
     <EditText
         android:id="@+id/locationTimeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="61dp"
         android:hint="Enter Time For Event"
         android:padding="5dp"
         android:textAlignment="textEnd" />
+
+
     <Button
         android:id="@+id/SubmitButton"
         android:layout_width="151dp"
@@ -105,7 +109,7 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="100dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="46dp"
+        android:layout_marginBottom="0dp"
         android:background="@color/colorPerfect"
         android:backgroundTintMode="src_atop"
         android:text="Submit"
