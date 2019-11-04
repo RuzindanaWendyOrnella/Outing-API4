@@ -55,6 +55,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moringaschool.outingapi2.EventInfoActivity" />
         </activity>
+        <activity android:name=".PastEventActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moringaschool.outingapi2.PastEventActivity" />
+        </activity>
         <provider
             android:authorities="com.moringaschool.outingapi2.FileProvider"
             android:name="androidx.core.content.FileProvider"
