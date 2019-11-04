@@ -10,22 +10,25 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="30dp"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/linearLayout">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/linearLayout"
-            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginBottom="1dp"
+
             android:text="Create Account"
             android:textColor="@color/colorPerfect"
             android:textSize="30dp"
             android:textStyle="bold" />
+
         <EditText
             android:id="@+id/nameOfUserEditText"
-            android:layout_width="match_parent"
+            android:layout_width="700dp"
+            android:layout_marginLeft="20dp"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
             android:hint="Name"
@@ -38,7 +41,8 @@
 
         <EditText
             android:id="@+id/emailOfUserEditText"
-            android:layout_width="match_parent"
+            android:layout_width="700dp"
+            android:layout_marginLeft="20dp"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
             android:hint="Email"
@@ -52,7 +56,8 @@
 
         <EditText
             android:id="@+id/passwordOfUserEditText"
-            android:layout_width="match_parent"
+            android:layout_width="700dp"
+            android:layout_marginLeft="20dp"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
             android:hint="Password"
@@ -67,7 +72,8 @@
 
         <EditText
             android:id="@+id/confirmPasswordEditText"
-            android:layout_width="match_parent"
+            android:layout_width="700dp"
+            android:layout_marginLeft="20dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:background="@android:color/white"
@@ -81,8 +87,9 @@
 
         <Button
             android:id="@+id/createUserButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="700dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
             android:layout_marginTop="5dp"
             android:background="@color/colorAccent"
             android:padding="5dp"
