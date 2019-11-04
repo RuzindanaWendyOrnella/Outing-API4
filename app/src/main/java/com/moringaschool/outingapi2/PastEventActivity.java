@@ -1,4 +1,4 @@
-package com.moringaschool.outingapi2.models;
+package com.moringaschool.outingapi2;
 
 import android.Manifest;
 import android.content.Intent;
@@ -20,12 +20,15 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
-import com.moringaschool.outingapi2.R;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import butterknife.BindView;
 
 import static android.os.Environment.getExternalStoragePublicDirectory;
 
@@ -41,6 +44,7 @@ public class PastEventActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saved);
+
         btnTakePic = findViewById(R.id.btnTakePic);
         if (Build.VERSION.SDK_INT >= 23) {
             requestPermissions(new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 2);
@@ -53,6 +57,7 @@ public class PastEventActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 takePicture();
+
             }
         });
         imageView = findViewById(R.id.image);
