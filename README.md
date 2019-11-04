@@ -8,7 +8,7 @@ Ruzindana Wendy Ornella,
 programmmer at wecode.
 
 ## Setup/Installation Requirements
-*Android Studio
+* Android Studio
 * git-hub
 ## Bugs
 * it was hard to save the images to the firebase
