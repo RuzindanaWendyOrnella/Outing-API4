@@ -13,6 +13,7 @@
         android:layout_marginTop="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/club1" />
+
     <Button
         android:id="@+id/eventButton"
         android:layout_width="184dp"
@@ -21,7 +22,7 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="100dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="459dp"
+        android:layout_marginBottom="387dp"
         android:background="@color/colorPerfect"
         android:backgroundTintMode="src_atop"
         android:text="Create Event"
@@ -30,6 +31,7 @@
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         android:typeface="serif" />
+
     <Button
         android:id="@+id/searchButton"
         android:layout_width="184dp"
@@ -38,7 +40,7 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="100dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="178dp"
         android:background="@color/colorPerfect"
         android:backgroundTintMode="src_atop"
         android:text="Search Event"
