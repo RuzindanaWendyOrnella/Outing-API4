@@ -1,6 +1,6 @@
 
 # Outing-API4
-# {Brief description of project}
+
 this is my android app that allows a user to take pictures using phone camera.
 4/11/2019
 #### By 
