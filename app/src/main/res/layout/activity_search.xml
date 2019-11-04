@@ -46,17 +46,17 @@
         android:layout_marginTop="250sp"
         android:background="@color/colorPerfect"
         android:ems="10"
-        android:hint="Search Event"
+        android:hint="Search Event by location"
         android:textColorHint="@color/colorWhite" />
 
     <Button
         android:id="@+id/SubmitSearchButton"
-        android:layout_width="38dp"
-        android:layout_height="wrap_content"
+        android:layout_width="37dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="240dp"
-        android:layout_marginBottom="268dp"
+        android:layout_marginStart="233dp"
+        android:layout_marginBottom="221dp"
         android:background="@color/colorPerfect"
         android:backgroundTintMode="src_atop"
         android:drawableLeft="@drawable/ic_search_white_24dp"
